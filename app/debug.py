@@ -4,7 +4,6 @@ from app import app
 from models import db, User, Game, Review
 
 
-
 if __name__ == '__main__':
     
     db.init_app(app)
